@@ -9,6 +9,7 @@ import { TugasComponent } from './tugas/tugas.component';
 import { Tugas3Component } from './tugas3/tugas3.component';
 import { PegawaiComponent } from './pegawai/pegawai.component';
 import { SharedComponent } from './shared/shared.component';
+import { KuisComponent } from './kuis/kuis.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SharedComponent } from './shared/shared.component';
     TugasComponent,
     Tugas3Component,
     PegawaiComponent,
-    SharedComponent
+    SharedComponent,
+    KuisComponent
   ],
   imports: [
     BrowserModule,
