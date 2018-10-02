@@ -1,0 +1,13 @@
+<p>
+  Tugas3 Web Lanjut!
+</p>
+<button 
+  class = "btn btn-primary"
+  (click)="onCreationStatus()">Tampilkan Detail</button><br>
+  {{tulisan}}
+<p 
+[ngClass] = "{online: tugas > 4}"
+[ngStyle] = "{backgroundColor: tugas > 4? 'grey' : 'transparant'}"
+*ngFor="let tugas of array">{{tugas}}</p>
+
+
